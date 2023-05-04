@@ -1,0 +1,88 @@
+* {
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+	font-family: Arial, sans-serif;
+}
+
+body{
+	background-color:grey;
+}
+
+header{
+	background-color: blue;
+	color: white;
+	padding: 20px;
+}
+
+.deskripsi{
+	 font-weight: bold;
+}
+
+.div-utama{
+	max-width: 1080px;
+	margin: 20px auto;
+	background-color: white;
+	overflow: hidden;
+}
+
+.angka{
+	margin-left: 30px;
+}
+
+
+
+.kiri {
+	padding: 10px;
+    float: left;
+    width: 740px;
+	background-color: white;
+	box-sizing: border-box;
+}
+
+.informasi {
+	background-color: cyan;
+	width: 340px;
+	  float: left;
+	  box-sizing: border-box;
+}
+.navigasi ul {
+	list-style: none;
+	padding:0px;
+	margin: 0;
+	overflow: hidden;
+	background-color: darkblue; 
+	font-size: 13px;
+	font-weight: bold;
+}
+
+.navigasi li{
+	float: left;
+}
+
+.navigasi li a{
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block; 
+}
+
+.navigasi li a:hover{
+	background-color: yellow;
+	transition-duration: 1s;
+}
+
+.gambar{
+	width: 100%;
+}
+
+
+footer {
+	clear: both;
+	background-color: blue;
+	color: white;
+	padding: 15px;
+	text-align: center;
+	
+}
